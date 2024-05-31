@@ -19,7 +19,7 @@ if (isset($_POST['category'])){
 }
 
 function gpt_desk($need_text) {
-    $api_key = "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";
+    $api_key = "";
     $prompt = array(array("role" => "user", "content" => $need_text));
     $url = "https://api.openai.com/v1/chat/completions";
 
